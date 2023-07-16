@@ -7,7 +7,7 @@ favorite_numbers = {
 }
 
 for person, numbers in favorite_numbers.items():
-    print(f'\nName: {person}')
-    print(f'Favorite numbers:')
+    print(f"\nName: {person}")
+    print(f"Favorite numbers:")
     for number in numbers:
-        print(f'\t{number}')
+        print(f"\t{number}")
